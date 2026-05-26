@@ -1,6 +1,6 @@
 {
   "name": "rnode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Project Generator CLI by Er Ravi",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
