@@ -1,4 +1,4 @@
-# 🚀 RNode CLI — Project Generator CLI by Er Ravi
+# 🚀 MVCTYPENODE CLI — Project Generator CLI by Er Ravi
 
 ![Node.js](https://img.shields.io/badge/Node.js-20+-green?style=for-the-badge&logo=node.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
@@ -14,9 +14,9 @@ Generate scalable backend applications instantly with Express, TypeScript, Mongo
 
 # 📌 Introduction
 
-**RNode CLI** is a modern Node.js CLI tool that helps developers generate production-ready backend projects in seconds.
+**MVCTYPENODE CLI** is a modern Node.js CLI tool that helps developers generate production-ready backend projects in seconds.
 
-Instead of manually creating folders, installing packages, writing boilerplate code, and configuring TypeScript — RNode CLI automates everything.
+Instead of manually creating folders, installing packages, writing boilerplate code, and configuring TypeScript — MVCTYPENODE CLI automates everything.
 
 Perfect for:
 
@@ -82,7 +82,7 @@ Built using:
 ## CLI Startup
 
 ```bash
-$ rnode create my-api
+$ mvctypenode create my-api
 $ auto steup
 ```
 
@@ -92,8 +92,6 @@ $ auto steup
 
 ```bash
 ? Enter Project Name: my-api
-? Choose Language: TypeScript
-? Select Database: MongoDB
 ? Install Dependencies? Yes
 ? Start Development Server? Yes
 ```
@@ -145,7 +143,7 @@ my-api/
 ## Install Globally
 
 ```bash
-npm install -g rnode-cli
+npm install -g mvctypenode
 ```
 
 ---
@@ -155,7 +153,7 @@ npm install -g rnode-cli
 ## Create New Project(auto)
 
 ```bash
-rnode create my-app
+mvctypenode create my-app
 ```
 
 ---
@@ -163,7 +161,7 @@ rnode create my-app
 ## Generate Authentication Module
 
 ```bash
-rnode generate auth
+mvctypenode generate auth
 ```
 
 ---
@@ -171,7 +169,7 @@ rnode generate auth
 ## Generate User Module
 
 ```bash
-rnode generate user
+mvctypenode generate user
 ```
 
 ---
@@ -186,7 +184,7 @@ npm run dev
 
 # 🔥 Generated Express Boilerplate
 
-## server.ts
+## main.ts
 
 ```ts
 import express from "express";
@@ -231,7 +229,7 @@ DB=mongodb://localhost:27017/mydb
 ## Production Dependencies(auto install)
 
 ```bash
-npm install express mongoose dotenv cors bcryptjs jsonwebtoken
+npm install express mongoose dotenv cors
 ```
 
 ---
@@ -249,12 +247,10 @@ npm install -D typescript ts-node nodemon @types/node @types/express
 ```mermaid
 graph TD
 A[Start CLI] --> B[Ask Project Name]
-B --> C[Select Language]
-C --> D[Select Database]
-D --> E[Generate Boilerplate]
-E --> F[Install Dependencies]
-F --> G[Create Environment Files]
-G --> H[Run Development Server]
+B --> C[Generate Boilerplate]
+C --> D[Install Dependencies]
+D --> E[Create Environment Files]
+E --> F[Run Development Server]
 ```
 
 ---
@@ -277,7 +273,7 @@ G --> H[Run Development Server]
 ## Create Project
 
 ```bash
-rnode create ecommerce-api
+mvctypenode create ecommerce-api
 ```
 
 ---
@@ -285,7 +281,7 @@ rnode create ecommerce-api
 ## Generate Auth Module
 
 ```bash
-rnode generate auth
+mvctypenode generate auth
 ```
 
 Generated Files:
@@ -306,7 +302,7 @@ Contributions are welcome ❤️
 ## Fork Repository
 
 ```bash
-git clone https://github.com/Rktechpro/rnode-npm.git
+git clone https://github.com/Rktechpro/mvctypenode-npm.git
 ```
 
 ---
