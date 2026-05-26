@@ -1,7 +1,7 @@
 {
   "name": "rnode",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project Generator CLI by Er Ravi",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "bin": {
@@ -12,9 +12,53 @@
     "build": "tsc",
     "start": "node dist/main.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "rnode",
+    "rnode-cli",
+    "node-cli",
+    "project-generator",
+    "backend-generator",
+    "express-generator",
+    "typescript-cli",
+    "mern-cli",
+    "mern-generator",
+    "mongodb-cli",
+    "mvc-generator",
+    "auth-generator",
+    "jwt-auth",
+    "nodejs",
+    "express",
+    "typescript",
+    "mongodb",
+    "backend-boilerplate",
+    "api-generator",
+    "rest-api",
+    "express-typescript",
+    "fullstack-cli",
+    "developer-tools",
+    "cli-tool",
+    "npm-cli",
+    "starter-template",
+    "node-boilerplate",
+    "express-boilerplate",
+    "authentication",
+    "scalable-backend",
+    "fullstack-development",
+    "rapid-development",
+    "crud-generator",
+    "mern-stack",
+    "er-ravi"
+  ],
+  "author": "Er Ravi",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rktechpro/rnode-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rktechpro/rnode-npm/issues"
+  },
+  "homepage": "https://github.com/Rktechpro/rnode-npm#readme",
   "type": "commonjs",
   "dependencies": {
     "chalk": "^5.6.2",
@@ -29,6 +73,9 @@
   "devDependencies": {
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6"
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
   }
 }
