@@ -119,7 +119,9 @@ export const packageBoiler = () => {
     "devDependencies": {
       "@types/cookie-parser": "^1.4.10",
       "@types/cors": "^2.8.19",
-      "@types/express": "^5.0.6"
+      "@types/express": "^5.0.6",
+      "ts-node": "^10.9.2",
+      "ts-node-dev": "^2.0.0"
     }
   }
   return JSON.stringify(data, null, 2)
